@@ -97,8 +97,3 @@ class ScrollObserver {
     }
     
 }
-
-
-
-// export library
-export default ScrollObserver;
