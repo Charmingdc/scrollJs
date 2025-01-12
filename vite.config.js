@@ -6,7 +6,7 @@ export default defineConfig({
       entry: 'src/scroll.js',
       name: 'ScrollJs',
       fileName: (format) => `scrolljs.${format}.js`,
-      formats: ['es', 'cjs'], 
+      formats: ['es', 'cjs'],
     },
     rollupOptions: {
       external: [], 
@@ -16,4 +16,4 @@ export default defineConfig({
       },
     },
   },
-}); 
+});

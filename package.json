@@ -1,8 +1,8 @@
 {
-  "name": "scrolljs",
+  "name": "ScrollJs",
   "version": "1.0.0",
   "description": "A lightweight JavaScript library for scroll-triggered animations.",
-  "main": "scroll.js",
+  "main": "dist/scroll.cjs.js", 
   "exports": {
     "import": "./dist/scroll.mjs", 
     "require": "./dist/scroll.cjs.js" 
