@@ -1,14 +1,36 @@
 {
   "name": "scrolljs",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "npm run build",
-    "preview": "vite preview"
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript library for scroll-triggered animations.",
+  "main": "scroll.js",
+  "exports": {
+    "import": "./dist/scroll.mjs", 
+    "require": "./dist/scroll.cjs.js" 
   },
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "scroll",
+    "animation",
+    "intersection observer",
+    "javascript"
+  ],
+  "author": "Charmingdc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charmingdc/ScrollJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Charmingdc/ScrollJs/issues"
+  },
+  "homepage": "https://github.com/Charmingdc/ScrollJs#readme",
   "devDependencies": {
-    "vite": "^5.4.1"
-  }
+    "vite": "^4.5.5"
+  },
+  "files": [
+    "dist", 
+    "scroll.js"
+  ]
 }
