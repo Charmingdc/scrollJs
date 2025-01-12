@@ -162,6 +162,13 @@ main {
  justify-content: center;
 }
 
+#mobile-nav > li:last-of-type {
+ padding: .5rem;
+ border: 0.1rem solid var(--shade);
+ border-radius: 3rem;
+ margin-right: 1rem;
+}
+
 .menu-bar {
  width: 70%;
  height: auto;
@@ -207,8 +214,8 @@ main {
 }
 
 #menu-icon {
- width: 3rem;
- height: 3rem;
+ width: 3.2rem;
+ height: 3.2rem;
 }
 
 #github-icon {
