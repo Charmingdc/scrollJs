@@ -15,23 +15,79 @@ While other scroll triggered animation library offer predefined animation classe
 A simple and fast way to get started is to include this script on your page
 
 ``` html
-<h1> Hello </h1>
+<script src="https://cdn.jsdelivr.net/gh/Charmingdc/ScrollJs@main/scroll.min.js"></script>
 ```
-This will create the global variable ScrollObserver
+This will create the global variable `ScrollObserver`
 
-## Development
-
-ScrollJs is built with JavaScript, built on top of the Intersection observer Api.
-
-## Developer 
-
-Developed by **Adebayo Muis (Charmingdc)**
-
-## Support 
-
-You can support the project by giving it a star ⭐ 
+## Module
+``` bash
+$ npm install @charmingdc/scrolljs
+```
 
 
-## What to expect 
+### CommonJs
+``` js
+const ScrollObserver = require('@charmingdc/scrolljs')
+```
 
-Optional use of predefined css animations classes.
+### ES2015
+``` js
+import ScrollObserver from '@charmingdc/scrolljs'
+```
+
+<br />
+
+# Usage
+
+Installation provides us with the constructor function `ScrollObserver` Calling this function returns the ScrollObserver instance, the “brain” behind the magic.
+> ScrollObserver employs the singleton pattern; no matter how many times the constructor is called, it will always return the same instance. This means we can call it anywhere, worry-free.
+
+There’s a lot we can do with this instance, but most of the time we’ll be using the observer() method to create animation. Fundamentally, this is how to use ScrollObserver:
+
+`HTML`
+``` html
+<div class='card'>
+ Demo Card
+</div>
+```
+
+<br />
+
+`CSS`
+``` css
+.card {
+  width: 4rem;
+  height: 6rem;
+  background-color: blue;
+  border-radius: 1rem;
+  transform: translateX(-1rem);
+  transition: 200ms;
+}
+
+.fade-in {
+  transform: translateX(0rem);
+  transition: 200ms;
+} /* Animation to display when element enters viewport */
+```
+
+<br />
+
+`JAVASCRIPT`
+``` js
+ScrollObserver().observe()
+```
+or store the `ScrollObserver` instance to a variable 
+
+``` js
+const observer = ScrollObserver()
+observer.observe()
+```
+
+<br />
+
+### The full documentation can be found at [https://scrolljs.vercel.app](https://scrolljs.vercel.app)
+
+<br />
+
+# License
+Licensed under the MIT license for open source projects
