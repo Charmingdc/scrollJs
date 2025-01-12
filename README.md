@@ -1,7 +1,8 @@
+<p align="center">
+  <img src="https://github.com/Charmingdc/ScrollJs/blob/0dd4bd3f4113ba3e67ee2f0af75252fde3b43bf9/docs/images/scrollJs.svg" width="140px" height="140px" alt="ScrollJs icon" />
+</p>
+
 <h1 align="center"> ScrollJs </h1>
-
-<p align="center"> Animate elements when they scroll into view </p>
-
 <p align="center"> ScrollJs is a lightweight and easy to use javascript library that allows you to add scroll triggered animations (AOS) with optional callback functions and also lazy load your images to make your website more optimize.
 </p>
 
@@ -74,6 +75,7 @@ There’s a lot we can do with this instance, but most of the time we’ll be us
 
 `JAVASCRIPT`
 ``` js
+
 ScrollObserver().observe()
 ```
 or store the `ScrollObserver` instance to a variable 
