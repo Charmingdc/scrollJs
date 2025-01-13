@@ -105,12 +105,3 @@
    return ScrollObserver;
 
 }));
-
-
-
-
-// Expose the ScrollObserver class to the global window object (for CDN)
-if (typeof window !== 'undefined') {
-    window.ScrollObserver = ScrollObserver;
-  }
-});
