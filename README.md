@@ -87,7 +87,10 @@ observer.observe()
 
 <br />
 
-### The full documentation can be found at [https://scrolljs.vercel.app](https://scrolljs.vercel.app)
+### Link to documentation 
+> The full documentation can be found at:
+>
+[https://scrolljs.vercel.app](https://scrolljs.vercel.app)
 
 <br />
 
