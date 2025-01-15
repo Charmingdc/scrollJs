@@ -75,14 +75,14 @@ There’s a lot we can do with this instance, but most of the time we’ll be us
 
 `JAVASCRIPT`
 ``` js
-
-ScrollObserver().observe()
+const cards = document.querySelectorAll('.card');
+ScrollObserver().observe(cards, null, 'fade-in')
 ```
 or store the `ScrollObserver` instance to a variable 
 
 ``` js
 const observer = ScrollObserver()
-observer.observe()
+observer.observe(cards, null, 'fade-in');
 ```
 
 <br />
