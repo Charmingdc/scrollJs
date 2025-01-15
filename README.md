@@ -94,5 +94,11 @@ observer.observe(cards, null, 'fade-in');
 
 <br />
 
+
+# ChangeLog
+> For a detailed list of changes please see:
+[Changelog](./CHANGELOG.md)
+<br />
+
 # License
 Licensed under the MIT license for open source projects
